@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+.input{
+    margin: auto;
+    width:200px;
+    border-top: 2px solid;
+}
+.container {
+    width: 205px;
+    margin: 50px auto;  
+    background-color: rgb(252, 218, 218);
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+  }
+  
+
+  .output {
+    width: 200px;
+    height: 40px;
+    line-height: 50px;
+    text-align: right;
+    padding: 5px;
+    margin-bottom: 5px;
+    border:1px solid black;
+    box-sizing: border-box;
+  }
+
+  .num_bth, #clear, #equal_btn{
+    width: 58px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 30%;
+    background-color: rgb(252, 218, 218);
+    cursor: pointer 
+  }
+  #clear{
+      color: red;
+  }
+  #equal_btn{
+    background-color:rgb(152, 221, 221);
+}
